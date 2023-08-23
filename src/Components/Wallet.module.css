@@ -1,0 +1,118 @@
+.container{
+    position: relative;
+    background: #032282;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.cover{
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.amount div{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.cover span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: #CDCDCD;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: .2rem;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+}
+
+.btn button{
+    width: 112px;
+    height: 40px;
+    border-radius: 7px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background: #2D4696;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.btn button:first-of-type{
+    margin-right: 1rem;
+}
+
+.images img:nth-last-of-type(1){
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+}
+
+.images img:nth-last-of-type(2){
+    position: absolute;
+    top: 0px;
+    left: 170px;
+}
+
+.images img:nth-last-of-type(3){
+    position: absolute;
+    top: 0;
+    left: 182px;
+}
+
+.images img:nth-last-of-type(4){
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+
+@media screen and (min-width: 768px) {
+    .cover span{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .btn button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover span{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .btn button{
+        font-size: 14px;
+    }
+}

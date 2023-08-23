@@ -1,0 +1,80 @@
+.container{
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+.cover{
+    padding: .8rem;
+    background: #F6FAFF;
+    border-radius: 10px;
+}
+
+.cover p:first-of-type{
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F64A7;
+    margin-top: 0.6rem;
+}
+
+.cover p:last-of-type{
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #032282;
+    margin-top: 1rem;
+}
+
+.details{
+    padding: 0.8rem 0.8rem 0 0.8rem;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+}
+
+.details p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #032282;
+    margin: 0;
+    margin-right: .5rem;
+
+}
+
+.details span{
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .details p{
+        font-size: 10px;
+    }   
+
+    .cover p:last-of-type{
+        font-size: 16px;
+    }    
+
+    .cover p:first-of-type{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .details p{
+        font-size: 12px;
+    }   
+
+    .cover p:last-of-type{
+        font-size: 20px;
+    }    
+
+    .cover p:first-of-type{
+        font-size: 14px;
+    }
+}
+

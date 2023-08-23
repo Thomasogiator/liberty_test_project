@@ -1,0 +1,112 @@
+.container{
+    margin-top: 1rem;
+    background: #F8F9FB;
+}
+
+.cover{
+    background: #F8F9FB;
+}
+
+.over{
+    width: 91.1%;
+    margin: auto;
+}
+
+.nav2{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        background: #07112D;
+        margin-top: unset;
+        padding: 2rem 2rem 2rem 0;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .menu{
+        display: block;
+        width: 18.9%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .menu h1{
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .menu p{
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        margin: 1rem 0;
+    }
+
+    .menudiv{
+        padding: 1rem 0;
+        border-bottom: 0.4px dashed white;
+    }
+
+    .menudiv:first-of-type{
+        padding-top: unset;
+    }
+
+    .menudiv:last-of-type{
+        border-bottom: unset;
+    }
+
+    .menu-section{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-section img:first-of-type{
+        margin: 0 0.4rem;
+    }
+
+    .menu-cover{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cover{
+        width: 81%;
+        border-radius: 30px;
+    }
+
+    .nav2{
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .over{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 1.34%;
+        margin-bottom: 3rem;
+    }
+
+    .end{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .over{
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        grid-gap: 1.34%;
+        margin-bottom: 2rem;
+    }
+}
+

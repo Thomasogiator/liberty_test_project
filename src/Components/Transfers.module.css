@@ -1,0 +1,116 @@
+.container{
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+.cover{
+    padding: .8rem;
+    background: #F6FAFF;
+    border-radius: 10px;
+}
+
+.transfer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+
+.transfer p{
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4F64A7;
+    margin: 0;
+    width: 100%;
+}
+
+.transfer div{
+    background: #EAF4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.transfer span:first-of-type{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #032282;
+    margin-right: 0.5rem;
+}
+
+.transfer span:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.6rem;
+    overflow-x: auto;
+}
+
+.details p:first-of-type{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #4F64A7;
+}
+
+.details p:last-of-type{
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #032282;
+    /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 768px) {
+    .transfer{
+        margin-bottom: 1.5rem;
+    }
+
+    .details p:first-of-type{
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .details p:last-of-type{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .transfer span:first-of-type{
+        font-size: 10px;
+    }
+
+    .transfer p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .details p:first-of-type{
+        font-size: 12px;
+    }
+
+    .details p:last-of-type{
+        font-size: 14px;
+    }
+
+    .transfer span:first-of-type{
+        font-size: 12px;
+    }
+
+    .transfer p{
+        font-size: 14px;
+    }
+}
